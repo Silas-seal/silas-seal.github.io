@@ -1,0 +1,45 @@
+/* 
+    Created on : Jan 8, 2021, 9:26:53 PM
+    Author     : Seumx Plus
+*/
+
+.body {
+    /*background-image: url("images/background.jpg");*/
+    background-color: darkorange;
+}
+
+.lay {
+    background-color: whitesmoke;
+    border-width: 89px;
+    border-color: lightslategray;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.title {
+    font-family: leelawadee;
+    font-size: 23px;
+    color: darkslateblue;
+    background-color: whitesmoke;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.divi {
+    background-color: white;
+    font-family: leelawadee;
+    font-size: 23px;
+    color: black;
+    border-width: 37px;
+    border-radius: 0px 31px 0px 31px;
+    border-color: royalblue;
+}
+
+.addr {
+    background-color: royalblue;
+    border-width: 8px;
+    border-color: black;
+    border-radius: 8px 8px 8px 8px;
+    color: white;
+    
+    font-family: leelawadee;
+    font-size: 23px;
+}
