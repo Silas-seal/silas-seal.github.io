@@ -1,0 +1,71 @@
+
+.element {
+    background: hsl(210,31%,37%);
+    padding: 1.1%;
+    float: left;
+    border-width: 5px;
+    border-color: grey;
+    border-radius: 12%;
+}
+
+.head {
+    font-family: Felix titling;
+    font-size: 24px;
+    color: orangered;
+    background-color: white;
+    text-align: center;
+    border-radius: 12%;
+    padding: 1.8%;
+}
+
+.headtit {
+    font-family: Felix titling;
+    font-size: 27px;
+    color: darkslategrey;
+    background-color: white;
+    text-align: center;
+    border-radius: 12%;
+    padding: 1.8%;
+}
+
+.data {
+    font-family: Lucida sans;
+    font-size: 22px;
+    color: royalblue;
+    background-color: white;
+    text-align: center;
+    border-radius: 12%;
+    padding: 0.7%;
+}
+
+.tti {
+    font-family: Gill sans MT;
+    font-size: 24px;
+    color: darkgreen;
+    background-color: white;
+    text-align: center;
+    border-radius: 3%;
+}
+
+.datati {
+    font-family: Lucida sans;
+    font-size: 22px;
+    color: darkslategrey;
+    background-color: white;
+    text-align: left;
+    border-radius: 1%;
+    padding: 0.7%;
+}
+
+div {
+    padding: 1%;
+}
+
+.body {
+    background-color: hsl(210,31%,37%);
+    background-attachment: scroll;
+    font-family: Lucida sans;
+    font-size: 22px;
+    color: white;
+    text-align: left;
+}
