@@ -1,6 +1,49 @@
+.hid {
+    float: left;
+    padding: 8px;
+    background-color: white;
+    min-width: 300px;
+    /*border-color: hsl(210,31%,37%);*/
+    border-color: dodgerblue;
+    border-width: 12px;
+    border-radius: 0px 21px 0px 21px;
+}
+
+.hid2 {
+    float: left;
+    padding: 8px;
+    background-color: white;
+    min-width: 100px;
+    /*border-color: hsl(210,31%,37%);*/
+    border-color: dodgerblue;
+    border-width: 12px;
+    border-radius: 0px 10px 0px 10px;
+    color: hsl(210,31%,37%);;
+}
+
+.hid3 {
+    float: left;
+    padding: 18px;
+    background-color: white;
+    min-width: 100px;
+    /*border-color: hsl(210,31%,37%);*/
+    border-color: dodgerblue;
+    border-width: 12px;
+    border-radius: 0px 10px 0px 10px;
+    color: hsl(210,31%,37%);;
+}
+
+.cert {
+    width: 80%;
+    height: 47%;
+    border-color: hsl(210,31%,37%);
+    border-width: 12px;
+    border-radius: 0px 10px 0px 10px;
+}
 
 .element {
-    background: hsl(210,31%,37%);
+    /*background: hsl(210,31%,37%);*/
+    background: dodgerblue;
     padding: 1.1%;
     float: left;
     border-width: 5px;
@@ -22,7 +65,8 @@
     font-family: Felix titling;
     font-size: 27px;
     color: darkslategrey;
-    background-color: white;
+    /*background-color: white;*/
+    background: linear-gradient(to right, white,aliceblue);
     text-align: center;
     border-radius: 12%;
     padding: 1.8%;
@@ -31,7 +75,7 @@
 .data {
     font-family: Lucida sans;
     font-size: 22px;
-    color: royalblue;
+    color: dodgerblue;
     background-color: white;
     text-align: center;
     border-radius: 12%;
@@ -41,10 +85,11 @@
 .tti {
     font-family: Gill sans MT;
     font-size: 24px;
-    color: darkgreen;
+    color: green;
     background-color: white;
     text-align: center;
     border-radius: 3%;
+    padding: 8px;
 }
 
 .datati {
@@ -62,12 +107,23 @@ div {
 }
 
 .body {
-    background-color: hsl(210,31%,37%);
-    background-attachment: scroll;
+    /*background-color: hsl(210,31%,37%);*/
+    background: linear-gradient(to right, white, dodgerblue);
+    background-attachment: fixed;
     font-family: Lucida sans;
     font-size: 22px;
     color: white;
     text-align: left;
+}
+
+footer {
+    text-align: center;
+    font-family: Lucida sans;
+    font-size: 22px;
+    color: white;
+    padding: 12px;
+    background: dodgerblue;
+    width: 100%;
 }
 
 /* Paste this css to your style sheet file or under head tag */
@@ -82,6 +138,6 @@ top: 0px;
 width: 100%;
 height: 100%;
 z-index: 9999;
-background: url(https://github.com/Silas-seal/WebComponents/raw/master/Resume/pic.png) center no-repeat royalblue;
+background: url(https://github.com/Silas-seal/WebComponents/raw/master/Resume/loading.gif) center no-repeat dodgerblue;
 /*https://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif  color #fff*/
 }
