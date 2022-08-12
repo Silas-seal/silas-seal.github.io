@@ -12,8 +12,17 @@ body {
     overflow-x: hidden;
 }
 
-.page {
+.compite {
     max-width: 1450px;
+}
+
+.page {
+    max-width: 79%;
+    box-shadow: 1px 1px 12px 5px grey;
+}
+
+.pagemobile {
+    max-width: 98%;
     box-shadow: 1px 1px 12px 5px grey;
 }
 

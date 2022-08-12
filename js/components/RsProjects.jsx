@@ -54,6 +54,10 @@ class RsProjects extends React.Component {
         }
     }
 
+    shouldComponentUpdate() {
+        return false;
+    }
+
     render() {
         return (
             <div style={{maxWidth:1450}}>
@@ -67,38 +71,14 @@ class RsProjects extends React.Component {
 
 }
 
-class AirProjects extends React.Component {
-
-    constructor(props) {
-        super(props);
-
-        this.state = {
-            associate : {
-                appname : 'Associate portal',
-                applink : '',
-                appdesc : 'Airtel project to digitalize reporting structure and engagement of agents. '+
-                'The app had two tiers, web and mobile (android) to allow tracking of airtel money sales and services.',
-                mycontr : ['Structured the system blueprint (design).', 'Designed the web experience.',
-                'Implemented backend services with C# (ASP.NET)', 'Developed a mobile (android) app '+
-                'to communicate with the web api.', 'Collaborated in system and acceptance testing.',
-                'Database development.'],
-                apptech : 'C#, ASP.NET, SQL, Java, Html, JavaScript & CSS'
-            }
-        }
-    }
-
-    render() {
-        return (
-            <div style={{maxWidth:1450}}>
-                <ProjectView project={this.state.associate} />
-            </div>
-        )
-    }
-}
-
 class ProjectView extends React.Component {
+
     constructor(props) {
         super(props);
+    }
+
+    shouldComponentUpdate() {
+        return false;
     }
 
     render() {
@@ -122,5 +102,8 @@ class ProjectView extends React.Component {
     }
 }
 
-ReactDOM.render(<RsProjects />, document.getElementById('rsprojects'));
-ReactDOM.render(<AirProjects />, document.getElementById('airprojects'));
+var el = document.getElementById('rsprojects');
+
+var root = ReactDOM.createRoot(el);
+
+root.render(<RsProjects />);
