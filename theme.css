@@ -24,6 +24,7 @@ body {
 .pagemobile {
     max-width: 98%;
     box-shadow: 1px 1px 12px 5px grey;
+    overflow-x: scroll;
 }
 
 .overview {
