@@ -1,11 +1,12 @@
 console.log('Starting resume application');
+console.log('Width : '+window.innerWidth);
 
 jQuery(document).ready(function() {
     jQuery('.loader').fadeOut(1500);
-    jQuery('#quicklinks').css({'max-width' : '1450px'});
-    jQuery('#rsprojects').css({'max-width' : '1450px'});
-    jQuery('#airprojects').css({'max-width' : '1450px'});
-    console.log('Updated on load');
+    if(window.innerWidth <= 1140) {
+        jQuery('.page').toggleClass('pagemobile');
+        console.log('Switching to mobile view!')
+    }
 });
 
 function sayHello() {

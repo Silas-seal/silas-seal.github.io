@@ -31,4 +31,8 @@ function QuickLinks() {
     );
 }
 
-ReactDOM.render(<QuickLinks />, document.getElementById('quicklinks'));
+var el = document.getElementById('quicklinks');
+
+var root = ReactDOM.createRoot(el);
+
+root.render(<QuickLinks />);
