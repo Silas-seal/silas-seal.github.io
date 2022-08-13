@@ -22,7 +22,7 @@ body {
 }
 
 .pagemobile {
-    max-width: 98%;
+    max-width: 100%;
     box-shadow: 1px 1px 12px 5px grey;
     overflow-x: scroll;
 }
