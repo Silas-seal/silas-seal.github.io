@@ -84,7 +84,7 @@ a:hover {
     border-width: 3px;
     border-color: lightblue;
     box-shadow: 1px 0px 7px 2px slategrey;
-    padding: 30px;
+    padding: 10px;
 }
 
 .project .head {
@@ -92,7 +92,7 @@ a:hover {
     font-size: 22px;
     color: aliceblue;
     text-align: center;
-    padding: 12px;
+    padding: 10px;
 }
 
 .project .detail {
