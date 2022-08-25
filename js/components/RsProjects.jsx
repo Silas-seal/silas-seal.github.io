@@ -60,7 +60,7 @@ class RsProjects extends React.Component {
 
     render() {
         return (
-            <div style={{maxWidth:1450}}>
+            <div>
                 <ProjectView project={this.state.reengineering} /> <p/>
                 <ProjectView project={this.state.scoasoft} /> <p/>
                 <ProjectView project={this.state.jeumxtool} /> <p/>
@@ -83,7 +83,7 @@ class ProjectView extends React.Component {
 
     render() {
         return (
-            <div className="project" style={{maxWidth:1450}}>
+            <div className="project">
                 <div className="head">{this.props.project.appname}</div> <br/>
                 <a href={this.props.project.applink} target='_blank'>
                     {this.props.project.applink}
