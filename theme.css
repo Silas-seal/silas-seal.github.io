@@ -10,10 +10,11 @@ body {
     padding-top: 17px;
     padding-bottom: 0px;
     overflow-x: hidden;
+    width: 100%;
 }
 
 .compite {
-    max-width: 1450px;
+    max-width: 100%;
 }
 
 .page {
@@ -65,11 +66,12 @@ a:hover {
 
 .heading {
     background: blue;
-    padding: 12px;
+    padding: 10px;
     font-size: 25px;
     color: white;
-    width: 100%;
+    width: 95%;
     text-align: center;
+    border-radius: 8px;
 }
 
 .logo {
@@ -84,7 +86,7 @@ a:hover {
     border-width: 3px;
     border-color: lightblue;
     box-shadow: 1px 0px 7px 2px slategrey;
-    padding: 1px;
+    padding: 7px;
 }
 
 .project .head {
@@ -93,6 +95,7 @@ a:hover {
     color: aliceblue;
     text-align: center;
     padding: 10px;
+    border-radius: 18px;
 }
 
 .project .detail {

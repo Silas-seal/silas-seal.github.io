@@ -25,7 +25,7 @@ class AirProjects extends React.Component {
 
     render() {
         return (
-            <div style={{maxWidth:1450}}>
+            <div>
                 <ProjectView project={this.state.associate} />
             </div>
         )
@@ -43,7 +43,7 @@ class ProjectView extends React.Component {
 
     render() {
         return (
-            <div className="project" style={{maxWidth:1450}}>
+            <div className="project">
                 <div className="head">{this.props.project.appname}</div> <br/>
                 <a href={this.props.project.applink} target='_blank'>
                     {this.props.project.applink}
