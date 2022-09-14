@@ -61,9 +61,3 @@ class ProjectView extends React.Component {
         );
     }
 }
-
-var el = document.getElementById('airprojects');
-
-var root = ReactDOM.createRoot(el);
-
-root.render(<AirProjects />);

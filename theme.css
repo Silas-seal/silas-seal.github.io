@@ -44,7 +44,7 @@ a {
     padding: 7px;
 }
 a:hover {
-    background: black;
+    background: slategrey;
     color: white;
 }
 
@@ -65,7 +65,7 @@ a:hover {
 }
 
 .heading {
-    background: blue;
+    background: hsl(200, 47%, 32%);
     padding: 10px;
     font-size: 25px;
     color: white;
@@ -90,7 +90,7 @@ a:hover {
 }
 
 .project .head {
-    background: hsl(200, 7%, 18%);
+    background: hsl(200, 7%, 38%);
     font-size: 22px;
     color: aliceblue;
     text-align: center;
