@@ -30,9 +30,3 @@ function QuickLinks() {
         </div>
     );
 }
-
-var el = document.getElementById('quicklinks');
-
-var root = ReactDOM.createRoot(el);
-
-root.render(<QuickLinks />);
