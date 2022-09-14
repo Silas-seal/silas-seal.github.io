@@ -3,5 +3,4 @@ Resume Details
 
 Muwanguzi Silas professional Resume!
 
-View work history and achievements
-Tech stacks
+<h2>Review work history, skills and achievements</h2>
