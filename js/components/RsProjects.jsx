@@ -15,9 +15,11 @@ class RsProjects extends React.Component {
                 'Coding and testing a reusable business api for the new app.',
                 'Writing Java servlets to handle bulk client requests.',
                 'Implemeting Restful web services to be accessed by both web and app clients.',
-                'Database administration [MySQL]', 'Collaborating in system and acceptance testing.',
+                'Designed and developed great looking, interactive and responsive front-end pages using React.js & Vue.js',
+                'Developing and deploying micro-services using SpringBoot',
+                'Database development and administration [MySQL]', 'Collaborating in system and acceptance testing.',
                 'Delivery / deployment.'],
-                apptech : 'Java, Junit, Jenkins, JavaScript, SQL, Vue.js'
+                apptech : 'Java, Junit, Jenkins, JavaScript, SQL, Vue.js, React.js, SpringBoot'
             },
             scoasoft : {
                 appname : 'Scoasoft',
@@ -27,8 +29,8 @@ class RsProjects extends React.Component {
                 'Performance, Payments and Attendance. The target software was both desktop and web.',
                 mycontr : ['Analysing and designing the system.','Building app GUI Nodes and Panels.',
                 'Coding and testing of api components.','Integration and System testing.', 
-                'Database administration.', 'Writing reusable frontend React Componets.', 
-                'Collaboration on backend programming using Node.js.'],
+                'Database development and administration.', 'Writing reusable frontend React Componets.', 
+                'Writing modular backend core-services and features using Node.js.'],
                 apptech : 'Java, JavaFX, Junit, SQL, React.js, Node.js, Html & CSS'
             },
             jeumxtool : {
@@ -38,18 +40,20 @@ class RsProjects extends React.Component {
                 'on desktop platforms. It\'s a self inspired project, so I developed it  from scratch.',
                 mycontr : ['Structured and designed specifications.', 'Developed the components '+
                 'and assembled a single tool.', 'Tested and debugged the software.', 
-                'Developed a website for my developed tool.', 'Deployed a functional tool.'],
+                'Developed a website for the developed tool.', 'Deployed a functional tool.'],
                 apptech : 'Java, JavaFX, Junit, Batch, Vue.js, Python (Django), Sqlite3, Html & CSS'
             },
             rswebapp : {
                 appname : 'Remote Station webapp',
                 applink : 'https://remotestation.herokuapp.com/',
-                appdesc : 'On-going revision and rebuilding of our web application here at Remote Station. '+
+                appdesc : 'On-going revision of our web application at Remote Station. '+
                 'The Objective is to simply the app, make it lightweight and more responsive using '+
                 'React on frontend and Python (flask) on the backend.',
                 mycontr : ['Writing reusable React Components.', 'Coding and testing features in Python.',
-                'Implementing web services with flask.', 'Database administration.', 'Security monitoring.'],
-                apptech : 'Python, Flask, React.js, SQL, Html & CSS'
+                'Implementing web services with flask.', 'Database development and administration.', 
+                'Development an AI for client engagement, writing clean, readable, reusable and well documented Python Code in Jupyter Notebooks.',
+                'Security monitoring.'],
+                apptech : 'Python, Flask, AI (Machine Learning), React.js, SQL, Html & CSS'
             },
         }
     }
